@@ -14,7 +14,7 @@ namespace AstroLogger
         protected FileAccessController mFileAccessController;
 
         /// <summary>
-        /// Diccionario que relaciona rutas con un <see cref="FileAccessController"/>
+        /// Dictionary that associates a file path key with <see cref="FileAccessController"/> value.
         /// </summary>
         public static Dictionary<string, FileAccessController> CurrentlyOpenedFiles => mCurrentlyOpenedFiles;
 
