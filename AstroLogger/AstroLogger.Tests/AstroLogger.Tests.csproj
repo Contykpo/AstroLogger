@@ -5,16 +5,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>AstroLogger.Console.ConsoleLoggerDisplay</StartupObject>
-    <ApplicationIcon>Media\Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Media\Icon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\AstroLogger\AstroLogger.csproj" />
+    <ProjectReference Include="..\AstroLogger.Console\AstroLogger.Console.csproj" />
   </ItemGroup>
 
 </Project>
